@@ -1,0 +1,42 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-color: #f9f0ff;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.accordion {
+  background-color: white;
+  max-width: 375px;
+  padding: 1.5rem; }
+  .accordion .accordion-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .accordion .accordion-button p {
+      text-align: left; }
+  .accordion .accordion-content {
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden; }
+  .accordion .accordion-content.active {
+    max-height: 100vh; }
+
+.attribution {
+  position: absolute;
+  bottom: 0; }
+
+/*# sourceMappingURL=styles.css.map */
