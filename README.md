@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive FAQ accordion](https://www.frontendmentor.io/solutions/responsive-faq-accordion-HjI_0cUftv)
 - Live Site URL: [fem-faq_accordion](https://ejmabunda.github.io/fem-faq_accordion/)
 
 ## My process
